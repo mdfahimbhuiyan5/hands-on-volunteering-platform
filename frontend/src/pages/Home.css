@@ -1,0 +1,87 @@
+/* Home.css */
+
+/* Set a background color for the page */
+.home-container {
+    background: linear-gradient(135deg, #00b4d8, #008b8b);  /* Fresh blue gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Wrapper for content */
+  .content-wrapper {
+    text-align: center;
+    max-width: 600px;
+    color: #fff;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5); /* Slight dark background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  /* Subtitle styling */
+  .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Call-to-action button styles */
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Styling for buttons */
+  .cta-button {
+    text-decoration: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  /* Register button */
+  .register {
+    background-color: #00b4d8;
+    color: white;
+    border: 2px solid #00b4d8;
+  }
+  
+  .register:hover {
+    background-color: #008b8b;
+    border-color: #008b8b;
+  }
+  
+  /* Login button */
+  .login {
+    background-color: #008b8b;
+    color: white;
+    border: 2px solid #008b8b;
+  }
+  
+  .login:hover {
+    background-color: #00b4d8;
+    border-color: #00b4d8;
+  }
+  
+  /* Divider between buttons */
+  .divider {
+    color: white;
+    font-weight: bold;
+    padding: 0 15px;
+  }
+  
